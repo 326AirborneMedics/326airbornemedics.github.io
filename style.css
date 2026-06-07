@@ -21,6 +21,18 @@ header p {
     margin-top: 10px;
 }
 
+header .subtitle {
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+header .motto {
+    margin-top: 5px;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #d8c38b;
+}
+
 nav {
     background: #2f3517;
     text-align: center;
