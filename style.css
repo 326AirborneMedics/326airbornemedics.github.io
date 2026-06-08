@@ -9,7 +9,7 @@ body {
     background: #4b5320;
     color: white;
     text-align: center;
-    padding: 35px 20px;
+    padding: 45px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,24 +18,26 @@ body {
 }
 
 .site-logo {
-    max-width: 120px;
+    width: 160px;
+    max-width: 30vw;
     height: auto;
 }
 
 .header-text h1 {
     margin: 0;
-    font-size: 2.6rem;
+    font-size: 3rem;
+    letter-spacing: 1px;
 }
 
 .header-text .subtitle {
-    margin-top: 10px;
-    font-size: 1.1rem;
+    margin-top: 12px;
+    font-size: 1.15rem;
 }
 
 .header-text .motto {
-    margin-top: 5px;
+    margin-top: 12px;
     font-style: italic;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     color: #d8c38b;
 }
 
@@ -44,6 +46,15 @@ header {
     color: white;
     text-align: center;
     padding: 40px 20px;
+}
+
+.header-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
 }
 
 header h1 {
@@ -65,6 +76,21 @@ header .motto {
     font-style: italic;
     font-size: 1.2rem;
     color: #d8c38b;
+}
+
+@media (max-width: 700px) {
+    .header-inner {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .site-logo {
+        width: 120px;
+    }
+
+    .header-text h1 {
+        font-size: 2rem;
+    }
 }
 
 nav {
