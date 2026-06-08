@@ -244,6 +244,39 @@ nav a:hover {
 }
 
 /* =========================
+   Join Page
+========================= */
+
+.join-layout {
+    display: grid;
+    grid-template-columns: 1fr 340px;
+    gap: 40px;
+    align-items: start;
+    margin: 30px 0;
+}
+
+.join-poster-wrap {
+    text-align: center;
+}
+
+.join-poster {
+    width: 100%;
+    max-width: 340px;
+    border: 3px solid #4b5320;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+}
+
+@media (max-width: 850px) {
+    .join-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .join-poster {
+        max-width: 420px;
+    }
+}
+
+/* =========================
    Footer
 ========================= */
 
