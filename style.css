@@ -97,6 +97,16 @@ nav a:hover {
     line-height: 1.7;
 }
 
+.content a {
+    color: #4b5320;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
 footer {
     background: #2f3517;
     color: white;
