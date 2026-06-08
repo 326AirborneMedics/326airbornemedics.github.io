@@ -5,6 +5,16 @@ body {
     color: #222;
 }
 
+h1,
+h2,
+h3,
+h4,
+nav a,
+.button-link,
+.footer-title {
+    font-family: 'Oswald', sans-serif;
+}
+
 /* =========================
    Header
 ========================= */
@@ -37,7 +47,7 @@ body {
 .header-text h1 {
     margin: 0;
     font-size: 2.6rem;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 .header-text .subtitle {
@@ -66,7 +76,9 @@ nav a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
-    font-weight: bold;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 nav a:hover {
@@ -88,6 +100,7 @@ nav a:hover {
 .hero h2 {
     font-size: 2.8rem;
     margin: 0 0 22px;
+    letter-spacing: 1px;
 }
 
 .hero p {
@@ -103,6 +116,27 @@ nav a:hover {
 
 .hero-buttons .button-link {
     margin: 6px;
+}
+
+/* =========================
+   Buttons
+========================= */
+
+.button-link {
+    display: inline-block;
+    margin-top: 15px;
+    background: #4b5320;
+    color: white !important;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.button-link:hover {
+    background: #2f3517;
+    text-decoration: none;
 }
 
 .secondary-button {
@@ -184,21 +218,6 @@ nav a:hover {
 .featured-text h2 {
     margin-top: 0;
     color: #4b5320;
-}
-
-.button-link {
-    display: inline-block;
-    margin-top: 15px;
-    background: #4b5320;
-    color: white !important;
-    padding: 12px 20px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.button-link:hover {
-    background: #2f3517;
-    text-decoration: none;
 }
 
 /* =========================
@@ -285,6 +304,50 @@ nav a:hover {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
 }
 
+/* =========================
+   Footer
+========================= */
+
+footer {
+    background: #2f3517;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.footer-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.footer-motto {
+    color: #d8c38b;
+    font-style: italic;
+    margin-bottom: 12px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #d8c38b;
+}
+
+.footer-copy {
+    margin-top: 15px;
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+/* =========================
+   Mobile
+========================= */
+
 @media (max-width: 850px) {
     .join-layout {
         grid-template-columns: 1fr;
@@ -294,21 +357,6 @@ nav a:hover {
         max-width: 420px;
     }
 }
-
-/* =========================
-   Footer
-========================= */
-
-footer {
-    background: #2f3517;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-/* =========================
-   Mobile
-========================= */
 
 @media (max-width: 800px) {
     .mission-cards {
@@ -339,38 +387,4 @@ footer {
         display: inline-block;
         margin: 6px 10px;
     }
-}
-
-footer {
-    background: #2f3517;
-    color: white;
-    text-align: center;
-    padding: 30px 20px;
-}
-
-.footer-title {
-    font-weight: bold;
-    font-size: 1.1rem;
-    margin-bottom: 10px;
-}
-
-.footer-motto {
-    color: #d8c38b;
-    font-style: italic;
-    margin-bottom: 12px;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-}
-
-footer a:hover {
-    color: #d8c38b;
-}
-
-.footer-copy {
-    margin-top: 15px;
-    font-size: 0.85rem;
-    opacity: 0.8;
 }
