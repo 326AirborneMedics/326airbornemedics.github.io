@@ -97,6 +97,25 @@ nav a:hover {
     line-height: 1.6;
 }
 
+.hero-buttons {
+    margin-top: 25px;
+}
+
+.hero-buttons .button-link {
+    margin: 6px;
+}
+
+.secondary-button {
+    background: transparent;
+    border: 2px solid #d8c38b;
+    color: #fff !important;
+}
+
+.secondary-button:hover {
+    background: #d8c38b;
+    color: #2f3517 !important;
+}
+
 /* =========================
    Mission Cards
 ========================= */
