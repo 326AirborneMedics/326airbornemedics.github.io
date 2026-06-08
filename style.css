@@ -183,6 +183,33 @@ nav a:hover {
 }
 
 /* =========================
+   Call To Action
+========================= */
+
+.cta-section {
+    background: #4b5320;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: 40px;
+}
+
+.cta-section h2 {
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+.cta-section p {
+    max-width: 800px;
+    margin: 15px auto;
+    line-height: 1.6;
+}
+
+.cta-section .button-link {
+    margin-top: 20px;
+}
+
+/* =========================
    Events
 ========================= */
 
