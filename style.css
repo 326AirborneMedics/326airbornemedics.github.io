@@ -5,6 +5,40 @@ body {
     color: #222;
 }
 
+.site-header {
+    background: #4b5320;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.site-logo {
+    max-width: 120px;
+    height: auto;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 2.6rem;
+}
+
+.header-text .subtitle {
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+.header-text .motto {
+    margin-top: 5px;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #d8c38b;
+}
+
 header {
     background: #4b5320;
     color: white;
