@@ -414,6 +414,20 @@ nav a:hover {
     }
 }
 
+.photo-grid a {
+    display: block;
+    overflow: hidden;
+    cursor: zoom-in;
+}
+
+.photo-grid img {
+    transition: transform 0.3s ease;
+}
+
+.photo-grid a:hover img {
+    transform: scale(1.03);
+}
+
 /* =========================
    Join Page
 ========================= */
