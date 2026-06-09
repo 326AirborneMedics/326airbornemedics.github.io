@@ -134,7 +134,7 @@ nav a:hover {
         linear-gradient(rgba(47, 53, 23, 0.72), rgba(47, 53, 23, 0.72)),
         url("images/medical-jeep.jpg");
     background-size: cover;
-    background-position: center 40%;
+    background-position: center 35%;
     color: white;
     border-top: 3px solid #d8c38b;
     display: flex;
