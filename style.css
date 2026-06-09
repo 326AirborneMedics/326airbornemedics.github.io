@@ -234,6 +234,13 @@ nav a:hover {
     letter-spacing: 1px;
 }
 
+.contact-card {
+    background: #fffaf0;
+    border-left: 6px solid #4b5320;
+    padding: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+
 /* =========================
    Main Content
 ========================= */
