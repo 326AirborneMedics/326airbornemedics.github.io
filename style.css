@@ -86,6 +86,42 @@ nav a:hover {
 }
 
 /* =========================
+   Page Heroes
+========================= */
+
+.page-hero {
+    min-height: 350px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.page-hero-overlay {
+    background: rgba(0, 0, 0, 0.60);
+    padding: 30px 40px;
+    max-width: 850px;
+}
+
+.page-hero h2 {
+    margin: 0 0 10px;
+    font-size: 3rem;
+}
+
+.page-hero p {
+    margin: 0;
+    font-size: 1.15rem;
+    line-height: 1.6;
+}
+
+.history-hero {
+    background-image: url("images/colombieres.jpg");
+}
+
+/* =========================
    Hero
 ========================= */
 
