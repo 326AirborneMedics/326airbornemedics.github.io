@@ -394,6 +394,10 @@ nav a:hover {
     font-style: italic;
 }
 
+.portrait-photo {
+    object-position: center top;
+}
+
 @media (max-width: 900px) {
     .photo-grid {
         grid-template-columns: repeat(2, 1fr);
