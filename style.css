@@ -101,7 +101,7 @@ nav a:hover {
 }
 
 .page-hero-overlay {
-    background: rgba(0, 0, 0, 0.60);
+    background: rgba(0, 0, 0, 0.70);
     padding: 30px 40px;
     max-width: 850px;
 }
@@ -125,7 +125,6 @@ nav a:hover {
 .join-hero {
     background-image: url("images/market-garden.jpg");
     background-position: center 20%;
-    background: rgba(0, 0, 0, 0.75);
 }
 
 /* =========================
