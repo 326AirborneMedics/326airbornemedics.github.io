@@ -127,9 +127,9 @@ nav a:hover {
 ========================= */
 
 .hero {
-    min-height: 420px;
+    min-height: 340px;
     text-align: center;
-    padding: 60px 20px;
+    padding: 35px 20px;
     background-image:
         linear-gradient(rgba(47, 53, 23, 0.72), rgba(47, 53, 23, 0.72)),
         url("images/medical-jeep.jpg");
