@@ -127,11 +127,20 @@ nav a:hover {
 ========================= */
 
 .hero {
+    min-height: 420px;
     text-align: center;
-    padding: 45px 20px;
-    background: #5a6235;
+    padding: 60px 20px;
+    background-image:
+        linear-gradient(rgba(47, 53, 23, 0.72), rgba(47, 53, 23, 0.72)),
+        url("images/medical-jeep.jpg");
+    background-size: cover;
+    background-position: center 45%;
     color: white;
     border-top: 3px solid #d8c38b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero h2 {
