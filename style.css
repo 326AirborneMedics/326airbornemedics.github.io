@@ -129,7 +129,8 @@ nav a:hover {
 
 .events-hero {
     background-image: url("images/sainte-ode.jpg");
-    background-position: center 30%;
+    background-position: center 75%;
+    min-height: 400px;
 }
 
 /* =========================
