@@ -122,6 +122,11 @@ nav a:hover {
     background-position: center 30%;
 }
 
+.join-hero {
+    background-image: url("images/market-garden.jpg");
+    background-position: center 30%;
+}
+
 /* =========================
    Hero
 ========================= */
